@@ -18,7 +18,5 @@ spring:
           uri: https://github.com/MixelMeza/config-server.git
           default-label: master
           clone-on-start: true
-          username: MixelMeza
-          password: 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
 
 
