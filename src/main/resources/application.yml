@@ -1,0 +1,23 @@
+eureka:
+  instance:
+    instance-id: "${spring.application.name}:${random.value}"
+  client:
+    service-url:
+      defaultZone: https://eureka-production-cd7c.up.railway.app/
+server:
+  port: 7777
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: default
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MixelMeza/config-server.git
+          default-label: master
+          clone-on-start: true
+          username: MixelMeza
+          password: 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
+
