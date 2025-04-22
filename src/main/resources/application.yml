@@ -19,5 +19,5 @@ spring:
           default-label: master
           clone-on-start: true
           username: MixelMeza
-          password: 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
+          password: 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
 
