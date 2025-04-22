@@ -3,7 +3,7 @@ eureka:
     instance-id: "${spring.application.name}:${random.value}"
   client:
     service-url:
-      defaultZone: https://eureka-production-cd7c.up.railway.app/
+      defaultZone: https://eureka-production-cd7c.up.railway.app/eureka/
 server:
   port: 7777
 spring:
@@ -19,5 +19,5 @@ spring:
           default-label: master
           clone-on-start: true
           username: MixelMeza
-          password: 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
+          password: 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
 
